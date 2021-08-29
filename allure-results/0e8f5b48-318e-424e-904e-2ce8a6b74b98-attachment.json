@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body.sidebar-mini:nth-child(2) div.wrapper:nth-child(1) nav.main-header.navbar.navbar-expand.navbar-white.navbar-light ul.navbar-nav.ml-auto li.nav-item:nth-child(2) > a.nav-link"
+}

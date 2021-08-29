@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630275117645' stop='1630275124341'>
+    <name>My Amity Login application</name>
+    <title>My Amity Login application</title>
+    <test-cases>
+        <test-case start='1630275117645' status='broken' stop='1630275124339'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630275117649' status='passed' stop='1630275123702'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b5e7bff9-55dc-4ef4-945e-2988d1187fde-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275123704' status='passed' stop='1630275123744'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d50c6b4-eaa2-47f3-8dc3-415ea6c1553f-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='86802cb7-cde1-4248-a2e6-603bac9d3ac4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275123753' status='passed' stop='1630275123812'>
+                    <name>POST /session/:sessionId/element/c89b7a51-381b-4926-b43c-f326fdf43d0a/clear</name>
+                    <title>POST /session/:sessionId/element/c89b7a51-381b-4926-b43c-f326fdf43d0a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630275123818' status='passed' stop='1630275124032'>
+                    <name>POST /session/:sessionId/element/c89b7a51-381b-4926-b43c-f326fdf43d0a/value</name>
+                    <title>POST /session/:sessionId/element/c89b7a51-381b-4926-b43c-f326fdf43d0a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='88d178af-9d7f-4f90-9fb9-0fcf79ec9999-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275124033' status='passed' stop='1630275124058'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a7cb3540-2c6a-49f9-b152-980f1dca5cb2-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='709370e5-d2bd-4b60-997a-bc01cf0e9c5f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275124062' status='passed' stop='1630275124126'>
+                    <name>POST /session/:sessionId/element/ac333344-e4bf-4904-a688-68c9e173080b/clear</name>
+                    <title>POST /session/:sessionId/element/ac333344-e4bf-4904-a688-68c9e173080b/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630275124126' status='passed' stop='1630275124215'>
+                    <name>POST /session/:sessionId/element/ac333344-e4bf-4904-a688-68c9e173080b/value</name>
+                    <title>POST /session/:sessionId/element/ac333344-e4bf-4904-a688-68c9e173080b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f1fceb3e-b511-4006-8d05-f281cc5f20a9-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275124215' status='passed' stop='1630275124241'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1ad1660f-b4ce-4fd1-bda8-426afa42d8cb-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='f035aebe-b63f-4b80-8663-9321c7d59783-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630275124246' status='passed' stop='1630275124308'>
+                    <name>POST /session/:sessionId/element/e306d736-58a3-489c-a65b-49431416b442/click</name>
+                    <title>POST /session/:sessionId/element/e306d736-58a3-489c-a65b-49431416b442/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630275124310' status='broken' stop='1630275124338'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9501b4a8-a0f2-4b36-83dc-7c17d5d0d5e4-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=92.0.4515.159)</message>
+                <stack-trace>0   chromedriver                        0x0000000102959829 chromedriver + 2730025
+                1   chromedriver                        0x0000000103016f43 chromedriver + 9797443
+                2   chromedriver                        0x00000001026eb958 chromedriver + 182616
+                3   chromedriver                        0x00000001026cd7c4 chromedriver + 59332
+                4   chromedriver                        0x000000010274029c chromedriver + 529052
+                5   chromedriver                        0x000000010274eaff chromedriver + 588543
+                6   chromedriver                        0x000000010273d193 chromedriver + 516499
+                7   chromedriver                        0x00000001027138be chromedriver + 346302
+                8   chromedriver                        0x0000000102714b25 chromedriver + 351013
+                9   chromedriver                        0x0000000102920f8f chromedriver + 2498447
+                10  chromedriver                        0x0000000102933a61 chromedriver + 2574945
+                11  chromedriver                        0x000000010290676b chromedriver + 2389867
+                12  chromedriver                        0x0000000102934eda chromedriver + 2580186
+                13  chromedriver                        0x0000000102916ffc chromedriver + 2457596
+                14  chromedriver                        0x000000010294e148 chromedriver + 2683208
+                15  chromedriver                        0x000000010294e2d1 chromedriver + 2683601
+                16  chromedriver                        0x000000010295e848 chromedriver + 2750536
+                17  libsystem_pthread.dylib             0x00007fff20317950 _pthread_start + 224
+                18  libsystem_pthread.dylib             0x00007fff2031347b thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
